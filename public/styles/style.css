@@ -1,0 +1,66 @@
+html{
+    background-color:  rgb(255, 255, 255);
+    color: rgb(3, 35, 86);
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+h1{
+    font-size: 40pt;
+}
+
+h3{
+    font-size:70pt;
+}
+
+.container{
+    display: flex;
+    color: rgb(3, 35, 86);
+    font-family: "Times New Roman", serif;
+    gap: 40px;
+    font-size: 15pt;
+    text-decoration: none;
+}
+
+.container:hover{
+    color: rgb(48, 114, 236);
+}
+
+.button1{
+    background-color: rgb(198, 239, 249);
+    color: cornflowerblue;
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+}
+
+#logo{
+    width: 100%  
+}
+
+.pSize{
+    font-size: 20pt;
+    list-style-type: none;
+}
+
+img[src="./public/images/Profilbild Purple Purple II.png"]{
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+
+.sourceMedium{
+    clear: both;
+}
+
+.footer{
+    color: rgb(3, 35, 86);
+    font-size: 10pt;
+}
