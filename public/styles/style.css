@@ -8,6 +8,10 @@ html{
     /* margin-top: 10px; */
 }
 
+body{
+    margin:0px;
+    }
+
 h1{
     font-size: 40pt;
 }
@@ -20,20 +24,11 @@ h3{
     display: flex;
     color: rgb(3, 35, 86);
     font-family: "Times New Roman", serif;
-    gap: 40px;
+    gap: 20px;
     font-size: 15pt;
     text-decoration: none;
     float: right;
-}
-
-a{
-    display: flex;
-    color: rgb(3, 35, 86);
-    font-family: "Times New Roman", serif;
-    gap: 40px;
-    font-size: 15pt;
-    text-decoration: none;
-    float: right;
+    padding: 40px;
 }
 
 /* .container:hover{
@@ -51,7 +46,8 @@ a{
 }
 
 #logo{
-    width: 100%  
+    width: 100%;  
+    margin: 0px;
 }
 
 .pSize{
