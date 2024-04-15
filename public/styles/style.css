@@ -26,9 +26,19 @@ h3{
     float: right;
 }
 
-.container:hover{
-    color: rgb(48, 114, 236);
+a{
+    display: flex;
+    color: rgb(3, 35, 86);
+    font-family: "Times New Roman", serif;
+    gap: 40px;
+    font-size: 15pt;
+    text-decoration: none;
+    float: right;
 }
+
+/* .container:hover{
+    color: rgb(48, 114, 236);
+} */
 
 .button1{
     background-color: rgb(198, 239, 249);
