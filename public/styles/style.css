@@ -3,9 +3,9 @@ html{
     color: rgb(3, 35, 86);
     font-family: "Times New Roman", serif;
     text-align: center;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
+    /* margin-right: 10px; */
+    /* margin-left: 10px; */
+    /* margin-top: 10px; */
 }
 
 h1{
@@ -23,6 +23,7 @@ h3{
     gap: 40px;
     font-size: 15pt;
     text-decoration: none;
+    float: right;
 }
 
 .container:hover{
@@ -48,13 +49,13 @@ h3{
     list-style-type: none;
 }
 
-img[src="./public/images/Profilbild Purple Purple II.png"]{
+/* img[src="./public/images/Profilbild Purple Purple II.png"]{
     height: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto
 
-}
+} */
 
 .sourceMedium{
     clear: both;
