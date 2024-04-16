@@ -31,6 +31,10 @@ h3{
     padding: 40px;
 }
 
+.title{
+    font-weight: bold;
+}
+
 .fa {
     text-decoration: none;
     color: rgb(3, 35, 86);
@@ -59,9 +63,22 @@ h3{
     text-decoration: none;
 }
 
-#logo{
+.logo{
     width: 100%;  
     margin: 0px;
+}
+
+.gif{
+    width: 30%;  
+    margin: 0px;
+    text-align: center;
+}
+
+.Smile{
+    width: 45%;
+    margin-top: 100px;
+    margin-left: 0px;
+    text-align: left;
 }
 
 .pSize{
@@ -79,6 +96,12 @@ h3{
 
 .sourceMedium{
     clear: both;
+}
+
+p{
+    color: rgb(3, 35, 86);
+    font-size: 30px;
+    padding: 40px;
 }
 
 .footer{
