@@ -31,6 +31,20 @@ h3{
     padding: 40px;
 }
 
+.fa {
+    text-decoration: none;
+    color: rgb(3, 35, 86);
+  }
+
+.front:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+
+.fa:hover {
+    opacity: 0.6;
+  }
+
 /* .container:hover{
     color: rgb(48, 114, 236);
 } */
