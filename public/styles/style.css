@@ -31,9 +31,25 @@ h3{
     padding: 40px;
 }
 
+.containerI{
+    display: flex;
+    color: rgb(3, 35, 86);
+    font-family: "Times New Roman", serif;
+    gap: 20px;
+    font-size: 15pt;
+    text-decoration: none;
+    justify-content: center;
+    padding: 20px;
+}
+
 .title{
     font-weight: bold;
 }
+
+.title:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
 
 .fa {
     text-decoration: none;
