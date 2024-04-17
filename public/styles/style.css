@@ -123,9 +123,15 @@ p{
 .last{
     opacity: 0.6;
     width: 100%;
+    ;
 }
 
 .footer{
     color: rgb(3, 35, 86);
     font-size: 10pt;
+}
+
+.disclaimer{
+    text-decoration: none;
+    color: rgb(3, 35, 86);
 }

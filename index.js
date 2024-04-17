@@ -44,10 +44,13 @@ app.get("/", async (req, res) => {
 });
 
 
-app.get("/pi", (req, res) => {
-    res.render("pi.ejs");
+app.get("/page2", (req, res) => {
+    res.render("page2.ejs");
 });
 
+app.get("/page3", (req, res) => {
+    res.render("page3.ejs");
+});
 
 app.get("/one", (req, res) => {
     res.render("partials/status.ejs");
