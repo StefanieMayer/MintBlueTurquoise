@@ -42,6 +42,12 @@ h3{
     padding: 40px;
 }
 
+.containerII{
+    color: rgb(3, 35, 86);
+    font-size: 15pt;
+    text-decoration: none;
+}
+
 .title{
     font-weight: bold;
 }
@@ -134,4 +140,126 @@ p{
 .disclaimer{
     text-decoration: none;
     color: rgb(3, 35, 86);
+}
+
+@media(max-width:767px){
+    .container{
+        display: flex;
+        color: rgb(3, 35, 86);
+        font-family: "Times New Roman", serif;
+        gap: 5px;
+        font-size: 12pt;
+        text-decoration: none;
+        justify-content: center;
+        padding: 40px;
+    }
+    
+    .containerI{
+        display: flex;
+        color: rgb(3, 35, 86);
+        font-family: "Times New Roman", serif;
+        gap: 5px;
+        font-size: 12pt;
+        text-decoration: none;
+        justify-content: center;
+        padding: 40px;
+    }
+    
+    .containerII{
+        color: rgb(3, 35, 86);
+        font-size: 12pt;
+        text-decoration: none;
+    }
+
+    .logo{
+        width: 100%;  
+        margin: 0px;
+    }
+    
+    .gif{
+        width: 80%;  
+        margin: 0px;
+        text-align: center;
+    }
+    
+    .Smile{
+        width: 80%;
+        /* margin-top: 100px; */
+        margin-left: 0px;
+        text-align: left;
+    }
+
+    p{
+        color: rgb(3, 35, 86);
+        font-size: 18px;
+        padding: 40px;
+    }
+
+    footer{
+        color: rgb(3, 35, 86);
+        font-size: 8pt;
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media(min-width:768px) and (max-width:992px){
+    .container{
+        display: flex;
+        color: rgb(3, 35, 86);
+        font-family: "Times New Roman", serif;
+        gap: 20px;
+        font-size: 15pt;
+        text-decoration: none;
+        float: right;
+        padding: 40px;
+    }
+    
+    .containerI{
+        display: flex;
+        color: rgb(3, 35, 86);
+        font-family: "Times New Roman", serif;
+        gap: 20px;
+        font-size: 15pt;
+        text-decoration: none;
+        justify-content: center;
+        padding: 40px;
+    }
+    
+    .containerII{
+        color: rgb(3, 35, 86);
+        font-size: 15pt;
+        text-decoration: none;
+    }
+
+    .logo{
+        width: 80%;  
+        margin: 0px;
+    }
+    
+    .gif{
+        width: 80%;  
+        margin: 0px;
+        text-align: center;
+    }
+    
+    .Smile{
+        width: 80%;
+        /* margin-top: 100px; */
+        margin-left: 0px;
+        text-align: left;
+    }
+
+    p{
+        color: rgb(3, 35, 86);
+        font-size: 20px;
+        padding: 40px;
+    }
+
+    footer{
+        color: rgb(3, 35, 86);
+        font-size: 12pt;
+        margin-bottom: 20px;
+    }
+    
 }
