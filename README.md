@@ -1,24 +1,24 @@
-copy and paste the folders and files into your VSC (Visual Studio Code)
+<h3> Embedded JavaScript Version </h3> <br>
+
+copy and paste the folders and files into your VSC (Visual Studio Code) <br> <br>
+
+in the Terminal: <br>
+node.js install: cd MintBlueTurquoise, cd over <br>
+npm init -y <br>
+npm i express <br>
+npm i body-parser <br>
+npm i ejs <br>
+npm i axios <br>
+npm i -g nodemon <br> <br>
 
 
-in the Terminal:
-node.js install: cd MintBlueTurquoise, cd over
-npm init -y
-npm i express
-npm i body-parser
-npm i ejs
-npm i axios
-npm i -g nodemon
+package.json: <br>
+after "main": "index.js", write: <br> 
+"type": "module", <br> <br>
 
 
-package.json:
-after "main": "index.js", write:
-"type": "module",
+run node.js with: <br>
+nodemon index.js <br> <br>
 
-
-run node.js with:
-nodemon index.js
-
-
-in your browser:
+in your browser: <br>
 localhost:3000
